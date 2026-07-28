@@ -1,0 +1,27 @@
+{
+  "name": "genpark-customer-churn-prediction-analyzer-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - SaaS customer churn risk prediction and retention score.",
+  "author": "genpark",
+  "category": "sales",
+  "tags": [
+    "sales",
+    "genpark-skill",
+    "ai-agent"
+  ],
+  "inputs": {
+    "usage_days": {
+      "type": "int"
+    },
+    "support_tickets": {
+      "type": "int"
+    }
+  },
+  "outputs": {
+    "churn_risk": {
+      "type": "str"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
